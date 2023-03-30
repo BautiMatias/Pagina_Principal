@@ -1,1 +1,9 @@
-#header{color:aqua}
+#header{color:black}
+#header{font-size: xx-large;}
+/*quiero ponerle nombre al boton y que me lleve a otra pagina de html 
+NO se hacer lo de class para ponerle color etc
+hacer un TAB en la lista
+*/
+
+#lista{padding-left: 10px;}
+
