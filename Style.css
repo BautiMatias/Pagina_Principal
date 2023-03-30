@@ -4,6 +4,9 @@
 NO se hacer lo de class para ponerle color etc
 hacer un TAB en la lista
 */
+body{ background-image: url(./Fondo.jpg);
 
+
+}
 #lista{padding-left: 10px;}
 
