@@ -1,14 +1,17 @@
+#title{font-family: 'Courier New', Courier, monospace;}
 #header{color:black}
 #header{font-size: xx-large;}
+#header{text-align: center;}
+#header{font-family: 'Courier New', Courier, monospace;}
+
 /*quiero ponerle nombre al boton y que me lleve a otra pagina de html 
-NO se hacer lo de class para ponerle color etc
+
 hacer un TAB en la lista
+como ponerle el logito al coso de arriba de la pagina
 */
 body{ background-image: url(./Fondo.jpg);
 
 
 }
-.img{
-    left: 50%;
-}
+
 .lista{padding-left: 10px;}
