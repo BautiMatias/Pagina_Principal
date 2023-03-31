@@ -8,5 +8,7 @@ body{ background-image: url(./Fondo.jpg);
 
 
 }
-#lista{padding-left: 10px;}
-
+.img{
+    left: 50%;
+}
+.lista{padding-left: 10px;}
