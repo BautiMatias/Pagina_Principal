@@ -11,7 +11,25 @@ como ponerle el logito al coso de arriba de la pagina
 */
 body{ background-image: url(./Fondo.jpg);
 
-
 }
 
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 30px;
+    border: 0;}
+  
+  .topnav a {
+    
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
 .lista{padding-left: 10px;}
+
+
