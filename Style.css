@@ -4,32 +4,73 @@
 #header{text-align: center;}
 #header{font-family: 'Courier New', Courier, monospace;}
 
-/*quiero ponerle nombre al boton y que me lleve a otra pagina de html 
-
-hacer un TAB en la lista
-como ponerle el logito al coso de arriba de la pagina
-*/
-body{ background-image: url(./Fondo.jpg);
+body{ background-color: whitesmoke ;
 
 }
-
-div.fixed {
+/* menu con las cosas adentro */
+.menuppal{
+  display: flex;
+  justify-content: space-between;
+align-items: center;
+background-color: black;}
+  
+.topnav a {
+    
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;}
+    
+.whatsap {
     position: fixed;
     bottom: 0;
     right: 0;
     width: 30px;
     border: 0;}
-  
-  .topnav a {
-    
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
 
-.lista{padding-left: 10px;}
+
+
+/* footerrrrrrrrrr */
+.body {  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50%;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Col-izq Col-der";
+}
+
+.Col-izq { grid-area: Col-izq;
+color: black; 
+text-align: center;
+}
+.letra{
+  font-size: xx-large;
+}
+.Col-der { 
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "col-der-izq col-der-der"
+    "col-der-izq col-der-der";
+  grid-area: Col-der; 
+}
+
+.col-der-izq { grid-area: col-der-izq; }
+
+.col-der-der { grid-area: col-der-der; }
+
+.imgcolder{
+  
+  width: 300px;
+}
+
+
+
+
 
 
