@@ -70,10 +70,11 @@ text-align: center;
   height: 30vw ;
 }
 .imgfooter{
-  width: 10vw;
+  width: 30%;
 }
 .flexfooter{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: flex-start;
   text-align: left;
@@ -90,6 +91,9 @@ text-align: center;
     display: none;
   }
   
+  .flexfooter{
+    flex-direction: column;
+  }
   
 }
 
