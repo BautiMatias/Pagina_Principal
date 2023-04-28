@@ -4,15 +4,16 @@
 #header{text-align: center;}
 #header{font-family: 'Courier New', Courier, monospace;}
 
-body{ background-color: whitesmoke ;
+body{ background-color: whitesmoke ; 
+  margin: 0;
 
 }
 /* menu con las cosas adentro */
 .menuppal{
   display: flex;
   justify-content: space-between;
-align-items: center;
-background-color: black;}
+  align-items: center;
+  background-color: black;}
   
 .topnav a {
     
@@ -32,13 +33,15 @@ background-color: black;}
 
 
 /* footerrrrrrrrrr */
-.body {  display: grid;
+.gridy {  display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50%;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
     "Col-izq Col-der";
+  background-color: grey;
+  
 }
 
 .Col-izq { grid-area: Col-izq;
@@ -47,9 +50,51 @@ text-align: center;
 }
 .letra{
   font-size: xx-large;
+  justify-content: left;
+}
+.botoncatalogo{
+  
+  
+  font-size: large;
 }
 .Col-der { 
-  display: grid;
+ display: flex;
+ right: 0%;
+}
+
+
+
+.imgcolder{
+  
+  width:25vw;
+  height: 30vw ;
+}
+.imgfooter{
+  width: 10vw;
+}
+.flexfooter{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  text-align: left;
+  background-color: gray;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  .desaparece{
+    display: none;
+  }
+  .gridy{
+    display: none;
+  }
+  
+  
+}
+
+/*
+display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
   gap: 0px 0px;
@@ -57,18 +102,8 @@ text-align: center;
   grid-template-areas:
     "col-der-izq col-der-der"
     "col-der-izq col-der-der";
-  grid-area: Col-der; 
-}
-
-.col-der-izq { grid-area: col-der-izq; }
-
-.col-der-der { grid-area: col-der-der; }
-
-.imgcolder{
-  
-  width: 300px;
-}
-
+  grid-area: Col-der;
+*/
 
 
 
