@@ -13,7 +13,9 @@ body{ background-color: whitesmoke ;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: black;}
+  background-color: black;
+  
+}
   
 .topnav a {
     
@@ -33,7 +35,7 @@ body{ background-color: whitesmoke ;
 
 
 /* footerrrrrrrrrr */
-.gridy {  display: grid;
+/*.gridy {  display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50%;
   gap: 0px 0px;
@@ -41,31 +43,39 @@ body{ background-color: whitesmoke ;
   grid-template-areas:
     "Col-izq Col-der";
   background-color: grey;
+  margin-top: 0px;
+} */
+.gridy{
+  display: flex;
+  justify-content: space-between;
+  background-color: grey;
+  
   
 }
+
 
 .Col-izq { grid-area: Col-izq;
 color: black; 
 text-align: center;
+margin-left: auto;
+margin-right: auto;
 }
+
 .letra{
   font-size: xx-large;
   justify-content: left;
 }
+
 .botoncatalogo{
-  
-  
   font-size: large;
 }
+
 .Col-der { 
  display: flex;
  right: 0%;
 }
 
-
-
-.imgcolder{
-  
+.imgcolder{  
   width:25vw;
   height: 30vw ;
 }
@@ -79,20 +89,39 @@ text-align: center;
   align-items: flex-start;
   text-align: left;
   background-color: gray;
+  margin-top: 2%;
+  border-top: 2px solid black;
+  color: black;
 }
 
+.fotodelfooter{
+  padding-top: 1.5%;
+}
 
 
 @media screen and (max-width: 1200px) {
   .desaparece{
     display: none;
   }
-  .gridy{
+  .Col-der{
     display: none;
+    
+  }
+  .Col-izq{
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   
+  
   .flexfooter{
+    
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 2%;
   }
   
 }
