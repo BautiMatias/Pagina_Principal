@@ -6,7 +6,6 @@
 
 body{ background-color: whitesmoke ; 
   margin: 0;
-
 }
 /* menu con las cosas adentro */
 .menuppal{
@@ -14,7 +13,6 @@ body{ background-color: whitesmoke ;
   justify-content: space-between;
   align-items: center;
   background-color: black;
-  
 }
   
 .topnav a {
@@ -23,15 +21,16 @@ body{ background-color: whitesmoke ;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;}
+    font-size: 17px;
+  }
     
 .whatsap {
     position: fixed;
     bottom: 0;
     right: 0;
     width: 30px;
-    border: 0;}
-
+    border: 0;
+  }
 
 
 /* footerrrrrrrrrr */
@@ -49,10 +48,7 @@ body{ background-color: whitesmoke ;
   display: flex;
   justify-content: space-between;
   background-color: grey;
-  
-  
 }
-
 
 .Col-izq { grid-area: Col-izq;
 color: black; 
@@ -97,6 +93,22 @@ margin-right: auto;
 .fotodelfooter{
   padding-top: 1.5%;
 }
+
+.catalogo{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  background-color: aqua;
+}
+
+.listadelcata{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
 
 
 @media screen and (max-width: 1200px) {
