@@ -94,6 +94,13 @@ margin-right: auto;
   padding-top: 1.5%;
 }
 
+.contacto{
+  margin-top: 1%;
+}
+.desapareceinfo{
+  margin-top: 1%;
+}
+
 .catalogo{
   display: flex;
   justify-content: center;
@@ -102,7 +109,7 @@ margin-right: auto;
   background-color: aqua;
 }
 
-.listadelcata{
+/*.listadelcata{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -113,7 +120,7 @@ margin-right: auto;
   flex-wrap: wrap;
   justify-content: center;
 
-}
+} */
 .card-img-top{
   width: 600px;
   height: 300px;
@@ -122,6 +129,9 @@ margin-right: auto;
 
 @media screen and (max-width: 1200px) {
   .desaparece{
+    display: none;
+  }
+  .desapareceinfo{
     display: none;
   }
   .Col-der{
