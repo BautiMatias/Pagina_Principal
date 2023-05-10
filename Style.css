@@ -108,7 +108,16 @@ margin-right: auto;
   justify-content: center;
 
 }
+.card-group{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
+}
+.card-img-top{
+  width: 600px;
+  height: 300px;
+}
 
 
 @media screen and (max-width: 1200px) {
