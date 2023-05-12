@@ -4,7 +4,7 @@
 #header{text-align: center;}
 #header{font-family: 'Courier New', Courier, monospace;}
 
-body{ background-color: whitesmoke ; 
+body{ background-color: whitesmoke ;
   margin: 0;
 }
 /* menu con las cosas adentro */
@@ -123,7 +123,6 @@ margin-right: auto;
 
 } */
 .card-img-top{
-  width: 600px;
   height: 300px;
 }
 
