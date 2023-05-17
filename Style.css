@@ -14,7 +14,14 @@ body{ background-color: whitesmoke ;
   align-items: center;
   background-color: black;
 }
+
+.quienessomosTN:hover{
+  font-size: large;
+}
+.concat:hover{
+  font-size: large;
   
+}
 .topnav a {
     
     color: white;
@@ -23,7 +30,7 @@ body{ background-color: whitesmoke ;
     text-decoration: none;
     font-size: 17px;
   }
-    
+
 .whatsap {
     position: fixed;
     bottom: 0;
@@ -32,6 +39,9 @@ body{ background-color: whitesmoke ;
     border: 0;
     margin-right: 2%;
   }
+.whatsap:hover{
+  transform: scale(1.2);
+}
 
 
 /* footerrrrrrrrrr */
@@ -65,6 +75,10 @@ margin-right: auto;
 
 .botoncatalogo{
   font-size: large;
+  color: black;
+}
+.botoncatalogo:hover{
+  font-size: larger;
 }
 
 .Col-der { 
@@ -89,6 +103,10 @@ margin-right: auto;
   margin-top: 2%;
   border-top: 2px solid black;
   color: black;
+}
+
+.links:hover{
+  transform: scale(1.2);
 }
 
 .fotodelfooter{
@@ -141,6 +159,9 @@ margin-right: auto;
     display: none;
   }
   .desapareceinfo{
+    display: none;
+  }
+  .quienessomosTN{
     display: none;
   }
   .Col-der{
