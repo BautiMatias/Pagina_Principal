@@ -122,8 +122,17 @@ margin-right: auto;
   justify-content: center;
 
 } */
+
+.row{
+  margin-right: 0%;
+  
+}
+.col{
+  padding-right: 0%;
+}
 .card-img-top{
   height: 300px;
+  
 }
 
 
