@@ -38,6 +38,7 @@ body{ background-color: whitesmoke ;
     width: 30px;
     border: 0;
     margin-right: 2%;
+    z-index: 9999;
   }
 .whatsap:hover{
   transform: scale(1.2);
