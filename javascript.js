@@ -1,2 +1,4 @@
-let subtitulo = document.getElementsByClassName("flexardo")
-subtitulo.style.color="red"
+document.getElementById("demo").innerHTML="jola"
+document.getElementById("demo").style.color="red"
+
+  
