@@ -156,6 +156,20 @@ padding-top: 2%;
   padding-top: 1%;
   background-color: aqua;
 }
+.Pyboton{
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-secondary{
+  color: black;
+  background-color: black;
+}
+.btn-secondary:active{
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 
 /*.listadelcata{
   display: flex;
