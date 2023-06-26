@@ -67,9 +67,29 @@ body{ background-color: #9b9b9b ;
   background-color: grey;
   margin-top: 0px;
 } */
+
+/* Cochin */
 .gridy05{
   height: 550px;
-  background-color: goldenrod;
+  background-color: black;
+  color: #EDEADE;
+  font-size: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.logo-grande{
+  font-size: 200px;
+  font-family: Times, 'Times New Roman', serif;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.logo-grande:hover{
+font-size: 220px;
+transition: 600ms;
 }
 
 .gridy{
@@ -258,6 +278,9 @@ padding-top: 2%;
   
 }
 
+.mapa-oculto{
+  display: none;
+}
 
 @media screen and (max-width: 1200px) {
   .desaparece{
@@ -288,6 +311,24 @@ padding-top: 2%;
     align-items: center;
     text-align: center;
     padding-top: 2%;
+  }
+  
+  .logo-grande{
+    font-size: 19vw;
+  }
+  .mapa-oculto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 2cm;
+    text-align: top;
+    
+  }
+  .gridy2{
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    height: fit-content;
   }
   
 }

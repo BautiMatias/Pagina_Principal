@@ -31,7 +31,7 @@ function actualizarCarrito() {
         carritoElemento.classList.add('list-group-item');
         var contenido = `
             <span>${producto.titulo}</span>
-            <span>${producto.precio}</span>
+            <span>$${producto.precio}</span>
         `;
         carritoElemento.innerHTML = contenido;
         carritoContainer.appendChild(carritoElemento);
