@@ -64,10 +64,15 @@ body{ background-color: #080808 ;
   background-color: grey;
   margin-top: 0px;
 } */
+.gridy05{
+  height: 550px;
+  background-color: goldenrod;
+}
+
 .gridy{
   display: flex;
   justify-content: space-between;
-  background-color: black;
+  background-color: blue;
   margin-top: 0%;
   height: 550px;
   padding-top: 5%;  
@@ -190,13 +195,42 @@ padding-top: 2%;
 
 /* aca va el css de quienessomos.html */
 .x{
-  padding: 1%;
+  padding: 0%;
   margin-bottom: 0%;
   text-align: justify;
   line-height: 2cm;
   color: black;
 }
 
+.imagen-nosotros{
+  height: 550px;
+  margin-left: 0%;
+  padding-left: 0%;
+  padding-right: 1%;
+  
+  
+}
+.k{
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+
+.parteuno{
+  text-align: center;
+  margin-bottom: 1cm;
+}
+
+.partedos{
+  text-align: justify;
+  align-content: center;
+  text-align: center;
+}
+.final{
+  margin-top: 1cm;
+  text-align: center;
+}
 
 .row{
   margin-right: 0%;
@@ -230,7 +264,9 @@ padding-top: 2%;
     margin-right: auto;
   }
   
-  
+  .imagen-nosotros{
+    display: none;
+  }
   .flexfooter{
     
     flex-direction: column;
@@ -252,7 +288,57 @@ display: grid;
     "col-der-izq col-der-der"
     "col-der-izq col-der-der";
   grid-area: Col-der;
+
+  TESTEOO
 */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: white;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 40px;
+  right: 2px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: white;
+  
+  
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.openbtn {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
 
 
 

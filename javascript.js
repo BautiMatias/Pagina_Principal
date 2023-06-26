@@ -52,3 +52,13 @@ function vaciarCarrito() {
     carrito = [];
     actualizarCarrito();
 }
+
+/* esto es lo del sidenav */
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "300px";
+}
+  
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}

@@ -22,9 +22,7 @@
         <div>
             <div class="topnav">
                 <a class="quienessomosTN" href="quienessomos.html">Nosotros</a>
-                <a href="carrito.html">Carrito</a>
-                
-            
+                <img class="openbtn" src="shopping_cart_2_line.svg" alt="Open" onclick="openNav()">            
             </div>
         </div>
     </div>
@@ -351,14 +349,16 @@
       </div>
 
     </div>
-
-    <div >
+    
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <h2>Carrito</h2>
       <ul id="carrito" class="list-group"></ul>
       <hr>
       <p class="text-right">Total: $<span id="total"></span></p>
       <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
-  </div>
+    </div>
+    
 
 <script src="javascript.js"></script>     
 </body>
