@@ -4,7 +4,7 @@
 #header{text-align: center;}
 #header{font-family: 'Courier New', Courier, monospace;}
 
-body{ background-color: #080808 ;
+body{ background-color: #9b9b9b ;
   margin: 0;
 }
 /* menu con las cosas adentro */
@@ -25,9 +25,11 @@ body{ background-color: #080808 ;
 
 .quienessomosTN:hover{
   font-size: large;
+  transition: 500ms;
 }
 .concat:hover{
   font-size: large;
+  transition: 500ms;
   
 }
 .topnav a {
@@ -50,6 +52,7 @@ body{ background-color: #080808 ;
   }
 .whatsap:hover{
   transform: scale(1.2);
+  transition: 500ms;
 }
 
 
@@ -115,6 +118,7 @@ padding-top: 2%;
 }
 .botoncatalogo:hover{
   font-size: larger;
+  transition: 500ms;
 }
 
 .Col-der { 
@@ -135,14 +139,15 @@ padding-top: 2%;
   justify-content: space-around;
   align-items: flex-start;
   text-align: left;
-  background-color: #6924a5;
+  background-color: black;
   margin-top: 0%;
   border-top: 2px solid black;
-  color: black;
+  color: white;
 }
 
 .links:hover{
   transform: scale(1.2);
+  transition: 500ms;
 }
 
 .fotodelfooter{
@@ -168,7 +173,16 @@ padding-top: 2%;
   justify-content: space-between;
 }
 .btn{
+  background-color: black;
+  color: #9D00FF;
+}
+.btn:hover{
   background-color: #9D00FF;
+  color: black;
+}
+.btn:active{
+  box-shadow: 0 5px black;
+  transform: translateY(4px);
 }
 .btn-secondary{
   color: black;
@@ -176,7 +190,7 @@ padding-top: 2%;
 }
 .btn-secondary:active{
   background-color: red;
-  box-shadow: 0 5px #666;
+  box-shadow: 0 5px black;
   transform: translateY(4px);
 }
 
@@ -298,10 +312,12 @@ display: grid;
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: #111;
+  background-color: black;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+  color: white;
+  
 }
 
 .sidenav a {
@@ -327,7 +343,30 @@ display: grid;
   
   
 }
+.closebtn:hover{
+  scale: 1.15;
+}
 
+.openbtn:hover{
+  scale: 1.1;
+  transition: 500ms;
+
+}
+.espaciado{
+  padding-left: 2%;
+}
+.text-right{
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.list-group{
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+#boton-vaciar{
+  margin-left: 2%;
+}
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
