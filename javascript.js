@@ -1,4 +1,5 @@
-var carrito = [];
+var carrito = pickearCarritoGuardado();
+actualizarCarrito()
 var agregarCarritoButtons = document.getElementsByClassName('agregar-carrito');
 for (var i = 0; i < agregarCarritoButtons.length; i++) {
     agregarCarritoButtons[i].addEventListener('click', agregarProductoAlCarrito);
@@ -6,6 +7,7 @@ for (var i = 0; i < agregarCarritoButtons.length; i++) {
 
 var botonVaciar = document.getElementById('boton-vaciar');
 botonVaciar.addEventListener('click', vaciarCarrito);
+
 
 function agregarProductoAlCarrito(evento) {
     var button = evento.target;
@@ -19,6 +21,7 @@ function agregarProductoAlCarrito(evento) {
     };
     carrito.push(productoAgregado);
     actualizarCarrito();
+    guardarCarritoEnLocalStorage();
     
 }
 
@@ -51,6 +54,21 @@ function calcularTotal() {
 function vaciarCarrito() {
     carrito = [];
     actualizarCarrito();
+    guardarCarritoEnLocalStorage()
+}
+
+function pickearCarritoGuardado() {
+    var carritoGuardado = localStorage.getItem('carrito');
+    if (carritoGuardado) {
+        return JSON.parse(carritoGuardado); 
+    } else {
+        return [];
+    }
+    
+}
+
+function guardarCarritoEnLocalStorage() {
+    localStorage.setItem('carrito', JSON.stringify(carrito));
 }
 
 /* esto es lo del sidenav */
@@ -61,4 +79,12 @@ function openNav() {
   
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
+}
+
+/* boton a otra pag para pagar */
+var botonpagar = document.getElementById('boton-pagar');
+botonpagar.addEventListener('click',abrirMP)
+
+function abrirMP () {
+    window.open('nike.com.ar','_blank')
 }
