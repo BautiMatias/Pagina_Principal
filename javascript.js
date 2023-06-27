@@ -85,7 +85,16 @@ function closeNav() {
 var botonpagar = document.getElementById('boton-pagar');
 botonpagar.addEventListener('click',abrirMP)
 
+var botonpagar = document.getElementById('boton-pagar2');
+botonpagar.addEventListener('click',abrirMP)
+
 function abrirMP () {
-    alert("Tranferir al siguiente CBU: 0000003100083273193220")
-    
+    var tot = document.getElementById('total')
+    if(carrito.length === 0 ) {
+        alert("No ha seleccionado nada para comprar")
+    }else {
+        alert("Tranferir al siguiente CBU: 0000003100083273193220")
+    }
 }
+
+/* aca la idea era linkear con mercado pago pero no se puede si no figuras como negocio en la app */

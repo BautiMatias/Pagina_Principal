@@ -446,6 +446,7 @@ display: grid;
 #boton-pagar{
   margin-left: 2%;
   background-color: black;
+  color: #9D00FF;
 }
 #boton-pagar:hover{
   color: black;
@@ -462,6 +463,7 @@ display: grid;
   background-color: #9D00FF;
   transition: 600ms;
 }
+
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
