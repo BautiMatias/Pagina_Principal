@@ -344,6 +344,21 @@ padding-top: 2%;
   }
   .logo-grande{
     font-size: 19vw;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .logo-grande:hover{
+    font-size: 19vw;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+
   }
   .mapa-oculto{
     display: flex;
@@ -369,9 +384,6 @@ padding-top: 2%;
     display: flex;
     
   }
-  .logo-grande:hover{
-    font-size: xx-large;
-  }
   .whatsap{
     position: fixed;
     bottom: 0;
@@ -381,7 +393,6 @@ padding-top: 2%;
     margin-right: 5%;
     z-index: 9999;
   }
-  
 }
 
 /*
