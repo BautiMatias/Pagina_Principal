@@ -86,5 +86,6 @@ var botonpagar = document.getElementById('boton-pagar');
 botonpagar.addEventListener('click',abrirMP)
 
 function abrirMP () {
-    window.open('nike.com.ar','_blank')
+    alert("Tranferir al siguiente CBU: 0000003100083273193220")
+    
 }
