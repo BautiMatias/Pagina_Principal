@@ -369,6 +369,9 @@ padding-top: 2%;
     display: flex;
     
   }
+  .logo-grande:hover{
+    font-size: xx-large;
+  }
   
 }
 
