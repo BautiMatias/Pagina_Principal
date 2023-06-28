@@ -89,11 +89,14 @@ var botonpagar = document.getElementById('boton-pagar2');
 botonpagar.addEventListener('click',abrirMP)
 
 function abrirMP () {
-    var tot = document.getElementById('total')
+    var totalElemento = document.getElementById('total')
+    var tot = totalElemento.innerText;
     if(carrito.length === 0 ) {
         alert("No ha seleccionado nada para comprar")
     }else {
-        alert("Tranferir al siguiente CBU: 0000003100083273193220")
+        alert("Tranferir $" + tot + " al siguiente CBU: 0000003100083273193220")
+        vaciarCarrito()
+
     }
 }
 
